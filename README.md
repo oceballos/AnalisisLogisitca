@@ -11,21 +11,23 @@ Este proyecto utiliza fuentes oficiales y abiertas para construir un análisis e
 
 Las fuentes permiten combinar información de comercio exterior con variables macroeconómicas para observar posibles patrones, cambios de tendencia y relaciones temporales.
 
+>Nota: En este repositorio no se encuentran los datos para la ejecución del proyecto, para su extracción y descarga, utilizar notebook 
+
 ## Análisis
 
 El análisis se orienta a estimar, de forma exploratoria, cómo podría reflejarse la eliminación del MEPCO en las importaciones de Chile. Para ello se consideran, entre otros, los siguientes pasos:
 
-1. **Recolección y depuración de datos**  
-   Se consolidan registros mensuales de importaciones y series macroeconómicas en una estructura comparable por fecha.
+1. **Recolección de datos**
+   Se obtienen los datos desde las APIs o fuentes descargables disponibles, se dejan en la estructura de carpetas necesaria para el proyecto.
 
-2. **Normalización temporal**  
-   Las series se alinean a frecuencia mensual para facilitar la comparación entre variables.
+2. **Depuración y Normalización temporal**  
+   Se consolidan registros mensuales de importaciones y series macroeconómicas en una estructura comparable por fecha. Las series se alinean a frecuencia mensual para facilitar la comparación entre variables.
 
 3. **Exploración descriptiva**  
    Se revisan tendencias, variaciones y posibles quiebres antes y después de fechas de interés.
 
 4. **Relación entre variables**  
-   Se examina la evolución conjunta de importaciones, actividad económica e indicadores de precios y liquidez.
+   Se examina la evolución conjunta de importaciones, actividad económica e indicadores de precios y junto con el precio de los combustibles (Diesel y Gasolina).
 
 5. **Interpretación del impacto estimado**  
    Los resultados se interpretan como una aproximación analítica, no como una causalidad definitiva.
@@ -62,6 +64,7 @@ Recomendaciones adicionales:
 ---
 
 **Autoría:** proyecto de análisis de datos sobre importaciones y variables macroeconómicas de Chile.
-Osvaldo Ceballos Olivares ´osvaldo.ceballos@mail.udp.cl´
-Yerko Fuentes ´yerko.fuentes@mail.udp.cl´ 
-Paloma San Martin ´paloma.sanmartin@mail.udp.cl´ 
+
+Osvaldo Ceballos Olivares osvaldo.ceballos@mail.udp.cl
+Yerko Fuentes yerko.fuentes@mail.udp.cl 
+Paloma San Martin paloma.sanmartin@mail.udp.cl 
