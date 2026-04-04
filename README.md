@@ -4,11 +4,10 @@
 
 Este proyecto utiliza fuentes oficiales y abiertas para construir un análisis exploratorio del posible impacto de la eliminación del MEPCO sobre las importaciones en Chile:
 
-- **Datos de importaciones de Chile** publicados en el portal de datos abiertos del Gobierno de Chile.
-- **Indicadores macroeconómicos del Banco Central de Chile**, incluyendo series como IMACEC, IPC y M1.
-- **Datos de precios de combustibles líquidos** publicados en el portal de datos abiertos de la **Comisión Nacional de Energía (CNE)**.
+- **Datos de importaciones de Chile** publicados en el portal de datos abiertos del Gobierno de Chile. Se extrajeron por `API Ckan` de datos.gov
+- **Indicadores macroeconómicos del Banco Central de Chile** incluyendo series como IMACEC, IPC y M1. Se extraen usando `API BDE` del Banco Central
 - **Documentación asociada a los datasets**, utilizada para entender la estructura de los archivos, su periodicidad y cobertura temporal.
-
+   -
 Las fuentes permiten combinar información de comercio exterior con variables macroeconómicas para observar posibles patrones, cambios de tendencia y relaciones temporales.
 
 >Nota: En este repositorio no se encuentran los datos para la ejecución del proyecto, para su extracción y descarga, utilizar notebook 
@@ -29,7 +28,7 @@ El análisis se orienta a estimar, de forma exploratoria, cómo podría reflejar
 4. **Relación entre variables**  
    Se examina la evolución conjunta de importaciones, actividad económica e indicadores de precios y junto con el precio de los combustibles (Diesel y Gasolina).
 
-5. **Interpretación del impacto estimado**  
+5. **Proyección e Interpretación del impacto estimado**  
    Los resultados se interpretan como una aproximación analítica, no como una causalidad definitiva.
 
 > Nota: este repositorio se enfoca en un ejercicio de análisis de datos; los resultados deben leerse como una estimación preliminar.

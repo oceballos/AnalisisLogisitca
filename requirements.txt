@@ -5,3 +5,8 @@ ckanapi~=4.11
 bcchapi
 rarfile
 beautifulsoup4
+matplotlib
+seaborn
+scikit-learn
+dtale
+flask
