@@ -4,3 +4,4 @@ numpy~=2.3.5
 ckanapi~=4.11
 bcchapi
 rarfile
+beautifulsoup4
