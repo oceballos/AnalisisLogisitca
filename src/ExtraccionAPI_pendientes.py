@@ -6,11 +6,11 @@ from ckanapi import RemoteCKAN
 ckan = RemoteCKAN('https://datos.gob.cl')
 
 recursos = {
-    #2018: "c2f1008d-b84f-49cd-ba27-16cb7e842f38",
+    2018: "c2f1008d-b84f-49cd-ba27-16cb7e842f38",
     2020:  "6ed59525-1ff2-44d9-a26f-0e9078ca45d0",
-    #2023: "d1a42e81-b874-4964-9b3d-74dc0f813eae",
-    #2024: "096c3946-657e-420f-ae74-2337c00b5ba2",
-    #2025: "385fb63b-c898-4690-aa3f-d59d933fc30c",
+    2023: "d1a42e81-b874-4964-9b3d-74dc0f813eae",
+    2024: "096c3946-657e-420f-ae74-2337c00b5ba2",
+    2025: "385fb63b-c898-4690-aa3f-d59d933fc30c",
 }
 
 carpeta_destino = os.path.abspath(os.path.join(os.getcwd(), "..", "data","aduanas","faltantes"))
